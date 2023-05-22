@@ -171,7 +171,30 @@ section {
 .section-4 {
     flex-shrink: 0;
     flex-basis: 150px;
-    padding: 5rem;
+    padding: 5rem 10rem;
+}
+
+.section-4 .container {
+    background-color: #3b82f6;
+    padding: 2rem 0rem;
+    border-radius: 8px;
+    color: #f9faf8;
+    display: flex;
+    justify-content: space-around;
+}
+
+.section-4 p {
+    color: #e5e7eb;
+}
+
+.section-4 > .container > button {
+    background-color: #3b82f6;
+    border: 1px solid white;
+    padding: 0rem 2rem;
+    color: #f9faf8;
+    font-weight: 700;
+    font-size: 0.9rem;
+    border-radius: 8px;
 }
 
 /* Main End */
